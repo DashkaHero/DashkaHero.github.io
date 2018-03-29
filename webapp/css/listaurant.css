@@ -1,0 +1,168 @@
+@CHARSET "ISO-8859-1";
+
+/** core styles **/
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: "lucida sans", Arial, sans-serif;
+}
+
+form {
+	font-size: 10.5pt;
+}
+
+.ui-button-text {
+	font-size: 10pt;
+}
+
+input[type="text"], input[type="password"], select, textarea {
+	border: 1px solid #a6c9e2;
+	background: none;
+}
+
+input[readonly="readonly"] {
+	background: #c0c0c0;
+}
+
+.tiny {
+	font-size: 7pt;
+	font-style: italic;
+}
+
+.subheading {
+	color: #e17009;
+	font-weight: bold;
+}
+
+.ui-icon {
+	float: left;
+	margin-right: 1px;
+}
+
+p.ui-state-error {
+	padding: 3px;
+}
+
+p.ui-state-highlight {
+	padding: 3px;
+	margin: auto;
+	font-size: 10.5pt;
+	width: 70%;
+}
+
+#header {
+	height: 12%;
+	width: 100%;
+	font-weight: bold;
+	background-color: #3479ad;
+}
+
+#header td:last-child {
+	vertical-align: bottom;
+}
+
+#logo {
+	margin-left: 25px;
+	height: 77px;
+}
+
+.title {
+	font-size: 30pt;
+	width: 50%;
+	color: #fff391;
+	text-align: center;
+	font-family: "segoe print", "lucida sans", Arial, sans-serif;
+}
+
+#content {
+	border-bottom: 2px solid #4297d7;
+	border-top: 2px solid #4297d7;
+	background-image: url("../images/bg.jpg");
+	height: 85%;
+	width: 100%;
+	position: fixed;
+}
+
+#menu {
+	width: 75%;
+	margin: 3px auto;
+	height: 97%;
+	overflow: auto;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0%;
+	background-color: #3479ad;
+	width: 100%;
+	height: 6%;
+}
+
+#copyright {
+	text-align: center;
+	font-size: 9pt;
+	font-style: italic;
+	color: #fff391;
+}
+
+form hr {
+	color: #4297D7;
+}
+
+/** styles for home page **/
+#home h3 {
+	color: #a63e15;
+}
+
+div.homeBox {
+	width: 65%;
+	padding: 0px 7px;
+	float: left;
+}
+
+/** styles for sign in, member registration pages **/
+#loginbox {
+	position: absolute;
+	right: 2%;
+	width: 240px;
+	height: 200px;
+	border: 1px solid #4297d7;
+	z-index: 2;
+	padding: 10px;
+}
+
+legend {
+	margin: 10px;
+	font-weight: bold;
+	color: #e17009;
+}
+
+/** styles for reservation pages **/
+.reserveLink {
+	color: #a63e15 !important;
+}
+
+.reserveLink:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/** styles for togo order pages **/
+div#orderSheet {
+	float:left;
+	width: 30%;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+div#orderSheet h3 {
+	padding: 5px;
+	text-align: center;
+}
+
+.priceTD, #subtotal, #tax, #total {
+	text-align: right;
+}
+
+
